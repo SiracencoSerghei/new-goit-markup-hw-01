@@ -188,7 +188,7 @@ body {
 /* PORTFOLIO */
 
 .portfolio__filter--item {
-  background: var(--CLOUD, #f4f4fd);
+  background-color: var(--CLOUD, #f4f4fd);
 }
 .portfolio__filter--button {
   color: var(--IRIS, #4d5ae5);
