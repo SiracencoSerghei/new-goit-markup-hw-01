@@ -1,18 +1,18 @@
 /* global variables */
 :root {
   --primary-font-family: 'Roboto', sans-serif;
-  --IRIS: #4D5AE5;
-  --OCEAN: #404BBF;
-  --NAVY-BLUE: #2E2F42;
-  --GREEN: #31D0AA;
+  --IRIS: #4d5ae5;
+  --OCEAN: #404bbf;
+  --NAVY-BLUE: #2e2f42;
+  --GREEN: #31d0aa;
   --SLATE: #434455;
-  --LIGHT-SLATE: #8E8F99;
-  --CORNFLOWER: #E7E9FC;
-  --CLOUD: #F4F4FD;
-  --NAVY-BLUE-modal: rgba(46, 47, 66, 0.40);
-  --GREY: rgba(46, 47, 66, 0.70);
-  --WHITE: #FFFFFF;
-  --NAVY-BLUE-modal: rgba(46, 47, 66, 0.40);
+  --LIGHT-SLATE: #8e8f99;
+  --CORNFLOWER: #e7e9fc;
+  --CLOUD: #f4f4fd;
+  --NAVY-BLUE-modal: rgba(46, 47, 66, 0.4);
+  --GREY: rgba(46, 47, 66, 0.7);
+  --WHITE: #ffffff;
+  --NAVY-BLUE-modal: rgba(46, 47, 66, 0.4);
 }
 
 /* BODY */
@@ -20,33 +20,42 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: #434455;
+  color: var(--SLATE,#434455);
   background-color: #ffffff;
 }
 /* ШАПКА САЙТУ */
-ul.list {
+ul, li {
   list-style-type: none;
 }
 a.link {
   text-decoration: none;
+  color: inherit;
   cursor: pointer;
 }
 .header__logo {
-    color: var(--IRIS, #4d5ae5);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
-
 
 .nav-studio {
-    color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE, #2e2f42);
 }
-
+.nav__link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5 ; /* 150% */
+  letter-spacing: 0.02em;
+}
 
 .header-mail,
 .header-tel {
@@ -54,28 +63,6 @@ a.link {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-color);
-}
-
-.accent,
-.current,
-.nav-links .current,
-.nav-studio:hover,
-.nav-studio:focus,
-.nav-portfolio:hover,
-.nav-portfolio:focus,
-.nav-contacts:hover,
-.nav-contacts:focus,
-.header-mail:hover,
-.header-tel:hover,
-.header-mail:focus,
-.header-tel:focus,
-.map-link:hover,
-.map-link:focus,
-.footer-mail:hover,
-.footer-tel:hover,
-.footer-mail:focus,
-.footer-tel:focus {
-  color: #404bbf;
 }
 
 /* ПІДВАЛ САЙТУ */
