@@ -273,46 +273,54 @@ a.link .work-list-description {
 */
 /* PORTFOLIO */
 
-.portfolio__filter--item{
-    /* border-radius: 4px;
+.portfolio__filter--item {
+  /* border-radius: 4px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC); */
-    background: var(--CLOUD, #F4F4FD);
+  background: var(--CLOUD, #f4f4fd);
 }
-.portfolio__filter--button{
-    color: var(--IRIS, #4D5AE5);
-    text-align: center;
-    
-    /* Button Text */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.64px;
-}
-.work-examples__item{
-    /* border: 1px solid var(--CORNFLOWER, #E7E9FC); */
-background: var(--WHITE, #FFF);
-}
-.work-examples__title{
-    color: var(--NAVY-BLUE, #2E2F42);
+.portfolio__filter--button {
+  color: var(--IRIS, #4d5ae5);
+  text-align: center;
 
-/* Header 3 */
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 120% */
-letter-spacing: 0.4px;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
 }
-.work-examples__description{
-    color: var(--SLATE, #434455);
+.portfolio__filter--button:hover,
+.portfolio__filter--button:focus {
+  /* border-radius: 4px; */
+  color: var(--WHITE);
+  background: var(--OCEAN, #404bbf);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.work-examples__item {
+  /* border: 1px solid var(--CORNFLOWER, #E7E9FC); */
+  background: var(--WHITE, #fff);
+}
+.work-examples__title {
+  color: var(--NAVY-BLUE, #2e2f42);
 
-/* Body */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.work-examples__description {
+  color: var(--SLATE, #434455);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
