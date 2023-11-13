@@ -27,7 +27,6 @@ body {
 
 .list {
   list-style: none;
-  list-style-type: none;
 }
 .link {
   text-decoration: none;
@@ -189,15 +188,15 @@ body {
 
 /* BUTTONS */
 
-.portfolio-filter-list [type='button'] {
+.portfolio__filter--button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   color: var(--secondary-color);
 }
-.portfolio-filter-list [type='button']:hover,
-.portfolio-filter-list [type='button']:focus {
+.portfolio__filter--button:hover,
+.portfolio__filter--button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
