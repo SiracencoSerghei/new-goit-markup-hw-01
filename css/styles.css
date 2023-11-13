@@ -24,13 +24,12 @@ body {
   background-color: #ffffff;
 }
 /* ШАПКА САЙТУ */
-ul,
-li,
+
 .list {
   list-style: none;
   list-style-type: none;
 }
-a.link {
+.link {
   text-decoration: none;
   cursor: pointer;
 }
@@ -77,7 +76,7 @@ a.link {
 
 /* ПІДВАЛ САЙТУ */
 .footer {
-  background: var(--NAVY-BLUE, #2e2f42);
+  background-color: var(--NAVY-BLUE, #2e2f42);
 }
 .footer__logo {
   color: var(--IRIS, #4d5ae5);
@@ -103,7 +102,7 @@ a.link {
 
 /* BANNER SECTION */
 .banner {
-  background: var(--NAVY-BLUE, #2e2f42);
+  background-color: var(--NAVY-BLUE, #2e2f42);
 }
 .banner-title {
   color: var(--WHITE, #fff);
@@ -118,7 +117,7 @@ a.link {
 .banner-button {
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
-  background: var(--IRIS, #4d5ae5);
+  background-color: var(--IRIS, #4d5ae5);
   /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
   color: var(--WHITE, #fff);
   font-size: 16px;
@@ -167,7 +166,7 @@ a.link {
 /* OUR TEAM */
 
 .our-team {
-  background: var(--CLOUD, #f4f4fd);
+  background-color: var(--CLOUD, #f4f4fd);
 }
 .our-team__title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -182,7 +181,7 @@ a.link {
 }
 
 .our-team__item {
-  background: var(--WHITE, #fff);
+  background-color: var(--WHITE, #fff);
 
 }
 
@@ -200,7 +199,7 @@ a.link {
 .portfolio-filter-list [type='button']:hover,
 .portfolio-filter-list [type='button']:focus {
   color: #ffffff;
-  background: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 /* WORK DESCRIPTION */
@@ -243,7 +242,7 @@ a.link .work-list-description {
   background-color: var(--OCEAN, #404bbf);
 }
 .work-examples__item {
-  background: var(--WHITE, #fff);
+  background-color: var(--WHITE, #fff);
 }
 .work-examples__title {
   color: var(--NAVY-BLUE, #2e2f42);
