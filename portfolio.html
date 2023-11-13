@@ -21,17 +21,17 @@
           
           <ul class="list">
             <li class="nav__link">
-              <a href="./index.html" class="link nav-studio">Studio</a>
+              <a href="./index.html" class="link page-link">Studio</a>
             </li>
             <li class="nav__link">
-              <a href="./portfolio.html" class="link nav-portfolio">Portfolio</a>
+              <a href="./portfolio.html" class="link page-link">Portfolio</a>
             </li>
             <li class="nav__link">
-              <a href="/" class="link nav-contacts">Contacts</a>
+              <a href="/" class="link page-link">Contacts</a>
             </li>
           </ul>
         </nav>
-        <address>
+        <address class="header-address">
           <ul class="list">
             <li class="header-connect">
               <a href="mailto:info@devstudio.com" lang="en" class="link header-mail"
@@ -47,124 +47,104 @@
     <!-- MAIN -->
     <main class="portfolio">
       <section>
-        <h1 hidden class="portfolio-title">Portfolio</h1>
+        <h1 hidden class="portfolio__title">Portfolio</h1>
 
         <!-- FILTER-BUTTONS -->
 
-        <ul class="list portfolio-filter">
-          <li class="portfolio-filter-list">
-            <button type="button">All</button>
+        <ul class="list portfolio__filter">
+          <li class="portfolio__filter--item">
+            <button class="portfolio__filter--button" type="button">All</button>
           </li>
-          <li class="portfolio-filter-list">
-            <button type="button">Web Site</button>
+          <li class="portfolio__filter--item">
+            <button class="portfolio__filter--button" type="button">Web Site</button>
           </li>
-          <li class="portfolio-filter-list">
-            <button type="button">App</button>
+          <li class="portfolio__filter--item">
+            <button class="portfolio__filter--button" type="button">App</button>
           </li>
-          <li class="portfolio-filter-list">
-            <button type="button">Design</button>
+          <li class="portfolio__filter--item">
+            <button class="portfolio__filter--button" type="button">Design</button>
           </li>
-          <li class="portfolio-filter-list">
-            <button type="button">Marketing</button>
+          <li class="portfolio__filter--item">
+            <button class="portfolio__filter--button" type="button">Marketing</button>
           </li>
         </ul>
 
         <!-- ПРИКЛАДИ РОБІТ -->
         <ul class="list work-examples">
-          <li class="work-list">
-            <a href="" class="link">
+          <li class="work-examples__item">
+            <a href="" class="link work-examples__link">
               <img src="./images/portfolio-1.jpg" alt="App" width="360" height="300" >
-              <h2 class="work-list-title">Banking App Interface Concept</h2>
-              <p class="work-list-description">App</p>
+              <h2 class="work-examples__title">Banking App Interface Concept</h2>
+              <p class="work-examples__description">App</p>
             </a>
           </li>
-          <li class="work-list">
-            <a href="" class="link">
+          <li class="work-examples__item">
+            <a href="" class="link work-examples__link">
               <img src="./images/portfolio-2.jpg" alt="Marketing" width="360" height="300" >
-              <h2 class="work-list-title">Cashless Payment</h2>
-              <p class="work-list-description">Marketing</p>
+              <h2 class="work-examples__title">Cashless Payment</h2>
+              <p class="work-examples__description">Marketing</p>
             </a>
           </li>
-          <li class="work-list">
-            <a href="" class="link">
+          <li class="work-examples__item">
+            <a href="" class="link work-examples__link">
               <img src="./images/portfolio-3.jpg" alt="App" width="360" height="300" >
-              <h2 class="work-list-title">Meditation App</h2>
-              <p class="work-list-description">App</p>
+              <h2 class="work-examples__title">Meditation App</h2>
+              <p class="work-examples__description">App</p>
             </a>
           </li>
-          <li class="work-list">
-            <a href="" class="link">
+          <li class="work-examples__item">
+            <a href="" class="link work-examples__link">
               <img src="./images/portfolio-4.jpg" alt="Marketing" width="360" height="300" >
-              <h2 class="work-list-title">Taxi Service</h2>
-              <p class="work-list-description">Marketing</p>
+              <h2 class="work-examples__title">Taxi Service</h2>
+              <p class="work-examples__description">Marketing</p>
             </a>
           </li>
-          <li class="work-list">
-            <a href="" class="link">
+          <li class="work-examples__item">
+            <a href="" class="link work-examples__link">
               <img src="./images/portfolio-5.jpg" alt="Design" width="360" height="300" >
-              <h2 class="work-list-title">Screen Illustrations</h2>
-              <p class="work-list-description">Design</p>
+              <h2 class="work-examples__title">Screen Illustrations</h2>
+              <p class="work-examples__description">Design</p>
             </a>
           </li>
-          <li class="work-list">
-            <a href="" class="link">
+          <li class="work-examples__item">
+            <a href="" class="link work-examples__link">
               <img src="./images/portfolio-6.jpg" alt="Marketing" width="360" height="300" >
-              <h2 lang="en" class="work-list-title">Online Courses</h2>
-              <p class="work-list-description">Marketing</p>
+              <h2 lang="en" class="work-examples__title">Online Courses</h2>
+              <p class="work-examples__description">Marketing</p>
             </a>
           </li>
-          <li class="work-list">
-            <a href="" class="link">
+          <li class="work-examples__item">
+            <a href="" class="link work-examples__link">
               <img src="./images/portfolio-7.jpg" alt="Design" width="360" height="300" >
-              <h2 class="work-list-title">Instagram Stories Concept</h2>
-              <p class="work-list-description">Design</p>
+              <h2 class="work-examples__title">Instagram Stories Concept</h2>
+              <p class="work-examples__description">Design</p>
             </a>
           </li>
-          <li class="work-list">
-            <a href="" class="link">
+          <li class="work-examples__item">
+            <a href="" class="link work-examples__link">
               <img src="./images/portfolio-8.jpg" alt="Web Site" width="360" height="300" >
-              <h2 class="work-list-title">Organic Food</h2>
-              <p class="work-list-description">Web Site</p>
+              <h2 class="work-examples__title">Organic Food</h2>
+              <p class="work-examples__description">Web Site</p>
             </a>
           </li>
-          <li class="work-list">
-            <a href="" class="link">
+          <li class="work-examples__item">
+            <a href="" class="link work-examples__link">
               <img src="./images/portfolio-9.jpg" alt="Web Site" width="360" height="300" >
-              <h2 lang="en" class="work-list-title">Fresh Coffee</h2>
-              <p class="work-list-description">Web Site</p>
+              <h2 lang="en" class="work-examples__title">Fresh Coffee</h2>
+              <p class="work-examples__description">Web Site</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
     <!-- ПІДВАЛ -->
-    <footer class="page-footer">
-      <!-- LOGO -->
-      <a href="./index.html" lang="en" class="link footer-logo"
-        ><span class="accent">Web</span>Studio</a
-      >
-      <p class="firm-address">
-        Increase the flow of customers and sales for your business with digital marketing & growth
-        solutions.
-      </p>
-      <!-- АДРЕС -->
-      <!-- <address class="firm-address">
-        <ul class="list">
-          <li class="footer-link">
-            <a href="https://goo.gl/maps/z1Q6Qn75EZwD1Re8A" class="link map-link"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li class="footer-link">
-            <a href="mailto:info@devstudio.com" lang="en" class="link footer-mail"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="footer-link">
-            <a href="tel:+380961111111" class="link footer-tel">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address> -->
-    </footer>
+    <footer class="footer">
+        <a href="./index.html" lang="en" class="link footer__logo" >Web<span class="nav-studio">Studio</span>
+        </a>
+        <p class="firm-address">
+          Increase the flow of customers and sales for your business with digital marketing & growth
+          solutions.
+        </p>
+      </footer>
   </body>
 </html>
