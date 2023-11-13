@@ -1,18 +1,18 @@
 /* global variables */
 :root {
   --primary-font-family: 'Roboto', sans-serif;
-  --primary-color: #757575;
+  --primary-color: #434455;
   --secondary-color: #212121;
-  --accent-color: #4D5AE5;
+  --accent-color: #4d5ae5 ;
 }
 
 /* BODY */
 body {
-  font-family: var(--primary-font-family), -apple-system, BlinkMacSystemFont, avenir next, avenir,
-    segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, noto, arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: var(--primary-color);
+  color: #434455;
+  background-color: #FFFFFF;
 }
 /* ШАПКА САЙТУ */
 .list {
@@ -24,10 +24,12 @@ body {
 
 .nav-links .link.nav-logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  color: #000000;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 .nav-links .link {
   font-weight: 500;
@@ -44,7 +46,9 @@ body {
   color: var(--primary-color);
 }
 
-.accent,
+.accent{
+    color: #000;
+}
 .current,
 .nav-links .current,
 .nav-studio:hover,
@@ -63,7 +67,7 @@ body {
 .footer-tel:hover,
 .footer-mail:focus,
 .footer-tel:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 
 /* ПІДВАЛ САЙТУ */
