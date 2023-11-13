@@ -184,40 +184,7 @@ body {
 
 }
 
-/* PORTFOLIO-PAGE */
 
-/* BUTTONS */
-
-.portfolio__filter--button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  color: var(--secondary-color);
-}
-.portfolio__filter--button:hover,
-.portfolio__filter--button:focus {
-  color: #ffffff;
-  background-color: var(--accent-color);
-}
-
-/* WORK DESCRIPTION */
-
-.work-list-title {
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--secondary-color);
-}
-a.link .work-list-description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.88;
-  color: var(--primary-color);
-}
-/* ============================
-
-*/
 /* PORTFOLIO */
 
 .portfolio__filter--item {
